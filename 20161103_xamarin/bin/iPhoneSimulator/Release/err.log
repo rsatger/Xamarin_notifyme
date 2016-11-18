@@ -1,0 +1,77 @@
+dyld: warning: could not load inserted library '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib' because no suitable image found.  Did find:
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib: required code signature missing for '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib'
+
+objc[3763]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x1499c0f8) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x148e4074). One of the two will be used. Which one is undefined.
+objc[3763]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0xc0f844c) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0xbf3c4d8). One of the two will be used. Which one is undefined.
+2016-11-16 16:26:10.838 20161103_xamarin[3763:258604] 
+Unhandled Exception:
+System.ArgumentNullException: Value cannot be null.
+Parameter name: notification
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <d26ad13fdb1949e696a77aa9c3cf1f1b>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <d26ad13fdb1949e696a77aa9c3cf1f1b>:0 
+  at _xamarin.Application.Main (System.String[] args) [0x00000] in <e7aa326ed4ac464990a25e4af2d1b8c4>:0 
+2016-11-16 16:26:10.839 20161103_xamarin[3763:258604] Unhandled managed exception:
+Value cannot be null.
+Parameter name: notification (System.ArgumentNullException)
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <d26ad13fdb1949e696a77aa9c3cf1f1b>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <d26ad13fdb1949e696a77aa9c3cf1f1b>:0 
+  at _xamarin.Application.Main (System.String[] args) [0x00000] in <e7aa326ed4ac464990a25e4af2d1b8c4>:0 
+2016-11-16 16:26:10.840 20161103_xamarin[3763:258604] critical: Stacktrace:
+
+2016-11-16 16:26:10.840 20161103_xamarin[3763:258604] critical: 
+Native stacktrace:
+
+2016-11-16 16:26:10.907 20161103_xamarin[3763:258604] critical: 	0   20161103_xamarin                    0x0011b4ed mono_handle_native_sigsegv + 317
+2016-11-16 16:26:10.908 20161103_xamarin[3763:258604] critical: 	1   20161103_xamarin                    0x00124c51 sigabrt_signal_handler + 161
+2016-11-16 16:26:10.909 20161103_xamarin[3763:258604] critical: 	2   libsystem_platform.dylib            0x0c741ebb _sigtramp + 43
+2016-11-16 16:26:10.909 20161103_xamarin[3763:258604] critical: 	3   ???                                 0xffffffff 0x0 + 4294967295
+2016-11-16 16:26:10.910 20161103_xamarin[3763:258604] critical: 	4   libsystem_c.dylib                   0x0c48511f abort + 141
+2016-11-16 16:26:10.910 20161103_xamarin[3763:258604] critical: 	5   20161103_xamarin                    0x002c17fc xamarin_unhandled_exception_handler + 44
+2016-11-16 16:26:10.910 20161103_xamarin[3763:258604] critical: 	6   20161103_xamarin                    0x0011be00 mono_invoke_unhandled_exception_hook + 96
+2016-11-16 16:26:10.910 20161103_xamarin[3763:258604] critical: 	7   20161103_xamarin                    0x0011abcb mono_handle_exception_internal + 5611
+2016-11-16 16:26:10.911 20161103_xamarin[3763:258604] critical: 	8   20161103_xamarin                    0x001195d9 mono_handle_exception + 41
+2016-11-16 16:26:10.911 20161103_xamarin[3763:258604] critical: 	9   20161103_xamarin                    0x000b2346 mono_x86_throw_exception + 182
+2016-11-16 16:26:10.912 20161103_xamarin[3763:258604] critical: 	10  ???                                 0x1c92eb57 0x0 + 479390551
+2016-11-16 16:26:10.912 20161103_xamarin[3763:258604] critical: 	11  20161103_xamarin                    0x002c9092 _ZL30native_to_managed_trampoline_9P11objc_objectP13objc_selectorPP11_MonoMethodPKcS7_ + 354
+2016-11-16 16:26:10.912 20161103_xamarin[3763:258604] critical: 	12  20161103_xamarin                    0x002cedea -[UIKit_UIControlEventProxy BridgeSelector] + 74
+2016-11-16 16:26:10.913 20161103_xamarin[3763:258604] critical: 	13  libobjc.A.dylib                     0x0b1dd200 -[NSObject performSelector:withObject:withObject:] + 63
+2016-11-16 16:26:10.913 20161103_xamarin[3763:258604] critical: 	14  UIKit                               0x01bc134e -[UIApplication sendAction:to:from:forEvent:] + 91
+2016-11-16 16:26:10.913 20161103_xamarin[3763:258604] critical: 	15  UIKit                               0x01bc12e8 -[UIApplication sendAction:toTarget:fromSender:forEvent:] + 41
+2016-11-16 16:26:10.914 20161103_xamarin[3763:258604] critical: 	16  UIKit                               0x01d6ff54 -[UIControl sendAction:to:forEvent:] + 64
+2016-11-16 16:26:10.914 20161103_xamarin[3763:258604] critical: 	17  UIKit                               0x01d702bc -[UIControl _sendActionsForEvents:withEvent:] + 462
+2016-11-16 16:26:10.914 20161103_xamarin[3763:258604] critical: 	18  UIKit                               0x01d6f141 -[UIControl touchesEnded:withEvent:] + 717
+2016-11-16 16:26:10.915 20161103_xamarin[3763:258604] critical: 	19  UIKit                               0x01c37b9c -[UIWindow _sendTouchesForEvent:] + 3063
+2016-11-16 16:26:10.915 20161103_xamarin[3763:258604] critical: 	20  UIKit                               0x01c393d7 -[UIWindow sendEvent:] + 4312
+2016-11-16 16:26:10.915 20161103_xamarin[3763:258604] critical: 	21  UIKit                               0x01bdfd88 -[UIApplication sendEvent:] + 395
+2016-11-16 16:26:10.916 20161103_xamarin[3763:258604] critical: 	22  UIKit                               0x0248725d __dispatchPreprocessedEventFromEventQueue + 3706
+2016-11-16 16:26:10.916 20161103_xamarin[3763:258604] critical: 	23  UIKit                               0x0247f33f __handleEventQueue + 5345
+2016-11-16 16:26:10.916 20161103_xamarin[3763:258604] critical: 	24  CoreFoundation                      0x0ac6dcbf __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15
+2016-11-16 16:26:10.917 20161103_xamarin[3763:258604] critical: 	25  CoreFoundation                      0x0ac51df7 __CFRunLoopDoSources0 + 519
+2016-11-16 16:26:10.917 20161103_xamarin[3763:258604] critical: 	26  CoreFoundation                      0x0ac51284 __CFRunLoopRun + 1124
+2016-11-16 16:26:10.917 20161103_xamarin[3763:258604] critical: 	27  CoreFoundation                      0x0ac50bab CFRunLoopRunSpecific + 395
+2016-11-16 16:26:10.918 20161103_xamarin[3763:258604] critical: 	28  CoreFoundation                      0x0ac50a0b CFRunLoopRunInMode + 123
+2016-11-16 16:26:10.918 20161103_xamarin[3763:258604] critical: 	29  GraphicsServices                    0x0c1eab4c GSEventRunModal + 177
+2016-11-16 16:26:10.918 20161103_xamarin[3763:258604] critical: 	30  GraphicsServices                    0x0c1ea9c7 GSEventRun + 80
+2016-11-16 16:26:10.918 20161103_xamarin[3763:258604] critical: 	31  UIKit                               0x01bbf32b UIApplicationMain + 148
+2016-11-16 16:26:10.919 20161103_xamarin[3763:258604] critical: 	32  ???                                 0x1e603798 0x0 + 509622168
+2016-11-16 16:26:10.919 20161103_xamarin[3763:258604] critical: 	33  ???                                 0x1e603684 0x0 + 509621892
+2016-11-16 16:26:10.920 20161103_xamarin[3763:258604] critical: 	34  ???                                 0x1e6023a0 0x0 + 509617056
+2016-11-16 16:26:10.920 20161103_xamarin[3763:258604] critical: 	35  ???                                 0x1e602234 0x0 + 509616692
+2016-11-16 16:26:10.920 20161103_xamarin[3763:258604] critical: 	36  ???                                 0x1e6022ec 0x0 + 509616876
+2016-11-16 16:26:10.921 20161103_xamarin[3763:258604] critical: 	37  20161103_xamarin                    0x0012b402 mono_jit_runtime_invoke + 1458
+2016-11-16 16:26:10.921 20161103_xamarin[3763:258604] critical: 	38  20161103_xamarin                    0x001ebc0d do_runtime_invoke + 93
+2016-11-16 16:26:10.922 20161103_xamarin[3763:258604] critical: 	39  20161103_xamarin                    0x001edfbd mono_runtime_exec_main + 1005
+2016-11-16 16:26:10.922 20161103_xamarin[3763:258604] critical: 	40  20161103_xamarin                    0x001edafc mono_runtime_run_main + 876
+2016-11-16 16:26:10.922 20161103_xamarin[3763:258604] critical: 	41  20161103_xamarin                    0x000b1ae9 mono_jit_exec + 265
+2016-11-16 16:26:10.923 20161103_xamarin[3763:258604] critical: 	42  20161103_xamarin                    0x002c62d8 xamarin_main + 1448
+2016-11-16 16:26:10.923 20161103_xamarin[3763:258604] critical: 	43  20161103_xamarin                    0x00353d21 main + 113
+2016-11-16 16:26:10.923 20161103_xamarin[3763:258604] critical: 	44  libdyld.dylib                       0x0c3df799 start + 1
+2016-11-16 16:26:10.924 20161103_xamarin[3763:258604] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

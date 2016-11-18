@@ -1,0 +1,7 @@
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/20161103_xamarin.exe
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Xml.dll
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.dll
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/mscorlib.dll
+/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Core.dll

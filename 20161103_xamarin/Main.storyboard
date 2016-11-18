@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="66" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="164" y="574" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.20392156862745098" green="0.807843137254902" blue="0.23921568627450981" alpha="1"/>
+                                <state key="normal" title="Generate Notifications">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="45" y="605" width="285" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="91"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="91" firstAttribute="width" constant="285"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="91"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="66"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="89"/>
+                                <exclude reference="90"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="66"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="89"/>
+                                <include reference="90"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="89" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="66" secondAttribute="trailing" constant="45"/>
+                            <constraint id="90" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="66" secondAttribute="bottom" constant="32"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="GenerateButton" destination="66" id="name-outlet-66"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>
