@@ -1,4 +1,9 @@
-﻿using System; using UIKit;  using Foundation; using System.Linq; using System.Collections.Generic;
+﻿using System;
+using UIKit;
+
+using Foundation;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace _xamarin
 {
@@ -33,6 +38,7 @@ namespace _xamarin
             string[] tableItems = new string[] { "Message1", "Message2", "Message3", "Message4", "Message5", "Message6" };
             table.Source = new TableSource(tableItems);
             Add(table);
+
         }
 
         public void OnGenerateNotifications(object sender, EventArgs eventArgs)
@@ -44,7 +50,9 @@ namespace _xamarin
             {
                 UIApplication.SharedApplication.ScheduleLocalNotification(notif);
             }
-            // schedule it
+			// schedule it
+
+			//ViewDidLoad();
         }
 
         public UILocalNotification[] GenerateFiveNotifications()

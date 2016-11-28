@@ -85,7 +85,7 @@ namespace _xamarin
 			// 3 refresh ViewController table 
 
 
-			string[] tableItems = new string[] { newMsg.Title, newMsg.Body };
+			//string[] tableItems = new string[] { newMsg.Title, newMsg.Body };
 
 
 			//mainController.UpdateAndRefreshMessages(newMsg);

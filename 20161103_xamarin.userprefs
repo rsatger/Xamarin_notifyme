@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{FE0310D2-B1C8-44B5-AF4C-20FA720C23CA}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="20161103_xamarin/ViewController.cs">
     <Files>
-      <File FileName="20161103_xamarin/AppDelegate.cs" Line="42" Column="31" />
-      <File FileName="20161103_xamarin/ViewController.cs" Line="15" Column="46" />
-      <File FileName="20161103_xamarin/Main.cs" Line="12" Column="1" />
+      <File FileName="20161103_xamarin/AppDelegate.cs" Line="93" Column="28" />
+      <File FileName="20161103_xamarin/ViewController.cs" Line="14" Column="3" />
+      <File FileName="20161103_xamarin/Main.cs" Line="7" Column="29" />
+      <File FileName="20161103_xamarin/UIViewViewControllerExtensions.cs" Line="27" Column="1" />
+      <File FileName="20161103_xamarin/ViewController.designer.cs" Line="27" Column="10" />
+      <File FileName="20161103_xamarin/TableSource.cs" Line="38" Column="4" />
+      <File FileName="20161103_xamarin/PhoneTranslator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.20161103__xamarin PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.199B0365-C0CD-4D6D-8E44-7D07143BBF3D" />
@@ -12,6 +16,9 @@
     <BreakpointStore>
       <Breakpoint file="/Users/RemySatger/Downloads/ios-xamarin-from-start-to-store/1-exercise-files/RaysHotDogs/RaysHotDogs/ViewController.cs" line="21" column="1" />
       <Breakpoint file="/Users/RemySatger/Projects/20161103_xamarin/20161103_xamarin/ViewController.cs" line="71" column="1" />
+      <Breakpoint file="/Users/RemySatger/Projects/git_repos/20161103_xamarin/ViewController.cs" line="119" column="1" />
+      <Breakpoint file="/Users/RemySatger/Projects/git_repos/20161103_xamarin/AppDelegate.cs" line="65" column="1" />
+      <Breakpoint file="/Users/RemySatger/Projects/git_repos/20161103_xamarin/ViewController.cs" line="51" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
