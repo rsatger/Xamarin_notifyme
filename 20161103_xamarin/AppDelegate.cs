@@ -93,6 +93,19 @@ namespace _xamarin
 			//table.Source = new TableSource(tableItems);
 			//Add(table);
 
+			var rc = UIApplication.SharedApplication.KeyWindow.RootViewController;
+
+			rc.ViewDidLoad();
+
+			//this.NavigationController.TopViewController.View
+
+
+			//UIViewController currentController = UIApplication.KeyWindow.RootViewController;
+			//while (currentController.PresentedViewController != null)
+			//	currentController = curController.PresentedViewController;
+
+			//UIView currentView = currentController.View;
+
 		}
 
 

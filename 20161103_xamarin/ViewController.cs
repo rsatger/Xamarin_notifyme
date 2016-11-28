@@ -14,6 +14,8 @@ namespace _xamarin
 
         private Random random = new Random();
 
+		//UIView myView = 
+
         private string RandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -35,7 +37,7 @@ namespace _xamarin
             GenerateButton.TouchUpInside += OnGenerateNotifications;
 
             table = new UITableView(View.Bounds); // defaults to Plain style
-            string[] tableItems = new string[] { "Message1", "Message2", "Message3", "Message4", "Message5", "Message6" };
+			string[] tableItems = new string[] { "Message1", "Message2", "Message3", "Message4", "Message5", RandomString(7) };
             table.Source = new TableSource(tableItems);
             Add(table);
 
