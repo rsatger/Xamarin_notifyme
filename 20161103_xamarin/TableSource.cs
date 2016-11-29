@@ -10,7 +10,7 @@ namespace _xamarin
 	public class TableSource : UITableViewSource
 	{
 
-		string[] TableItems;
+		public string[] TableItems;
 		NSString cellIdentifier = new NSString ("TableCell");
 
 		public TableSource(string[] items)

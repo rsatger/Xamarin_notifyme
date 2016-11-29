@@ -2,6 +2,10 @@
 using UIKit;
 
 using System;
+using UIKit;
+using UserNotifications;
+using UserNotificationsUI;
+
 
 
 namespace _xamarin
@@ -15,8 +19,6 @@ namespace _xamarin
 
 
 		//MyViewController* mainController = (MyViewController*)self.window.rootViewController;
-
-
 
 		public override UIWindow Window
 		{
@@ -81,7 +83,7 @@ namespace _xamarin
 
 			// TODO 
 			// 1 create the object from the notification -> ok
-			// 2 add this msg to messageTable
+			// 2 add this msg to messageTable -> ok
 			// 3 refresh ViewController table 
 
 
@@ -93,9 +95,26 @@ namespace _xamarin
 			//table.Source = new TableSource(tableItems);
 			//Add(table);
 
-			var rc = UIApplication.SharedApplication.KeyWindow.RootViewController;
+			//UIViewController currentController = UIApplication.SharedApplication.KeyWindow.RootViewController;
 
-			rc.ViewDidLoad();
+
+			//while (currentController.PresentedViewController != null)
+			//	currentController = currentController.PresentedViewController;
+
+			//UIView currentView = currentController.View;
+
+			//currentView.
+
+			  //tableItems[1] = "HelloFromAppD";
+
+			//rc.UpdateAndRefreshMessages(newMsg);
+
+			//currentController.ViewDidLoad();
+
+			//currentController.ReloadInputViews();
+
+			//currentController.DismissViewController(true, () => { RefreshMyView(); });
+
 
 			//this.NavigationController.TopViewController.View
 
@@ -108,6 +127,7 @@ namespace _xamarin
 
 		}
 
+	
 
 		public override void OnResignActivation(UIApplication application)
 		{

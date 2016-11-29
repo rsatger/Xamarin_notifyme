@@ -13,14 +13,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" customColorSpace="calibratedWhite" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="66" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="164" y="574" width="46" height="30"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.20392156862745098" green="0.807843137254902" blue="0.23921568627450981" alpha="1"/>
-                                <state key="normal" title="Generate Notifications">
+                                <state key="normal" title="Refresh notifications">
                                     <color key="titleColor" colorSpace="calibratedRGB" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact">

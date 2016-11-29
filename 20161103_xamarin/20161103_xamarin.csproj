@@ -121,6 +121,7 @@
     <Compile Include="TableSource.cs" />
     <Compile Include="CustomCell.cs" />
     <Compile Include="Message.cs" />
+    <Compile Include="MessageList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
