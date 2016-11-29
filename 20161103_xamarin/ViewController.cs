@@ -8,24 +8,18 @@ using System.Net;
 using System.IO;
 
 
-
 namespace _xamarin
 {
     public partial class ViewController : UIViewController
     {
 
-
-		public string[] TableItems = new string[] { "InitialTableItems1", "InitialTableItems1"  };
+		public string[] TableItems = new string[] { "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems4" , "InitialTableItems1", "InitialTableItems5" , "InitialTableItems1", "InitialTableItems1" , "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems4", "InitialTableItems1", "InitialTableItems5", "InitialTableItems1", "InitialTableItems1" };
 
 		public TableSource source;
 
 		public UITableView table;
 
         private Random random = new Random();
-
-
-		//public string[] TableItems = new string[] { "Message1", "Message2", "Message3", "Message4", "Message5", "Test" };
-
 
         private string RandomString(int length)
         {
@@ -125,7 +119,6 @@ namespace _xamarin
 				}
 			}
 
-
         }
 
         public UILocalNotification[] GenerateNotifications(List<string> listOfString)
@@ -171,5 +164,10 @@ namespace _xamarin
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
         }
+
+		public override bool PrefersStatusBarHidden()
+		{
+			return true;
+		}
     }
 }

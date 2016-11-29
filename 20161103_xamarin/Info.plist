@@ -36,5 +36,7 @@
 	<string>RSPhoneWord</string>
 	<key>XSLaunchImageAssets</key>
 	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
 </dict>
 </plist>
