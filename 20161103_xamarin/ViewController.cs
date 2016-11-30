@@ -13,7 +13,7 @@ namespace _xamarin
     public partial class ViewController : UIViewController
     {
 
-		public string[] TableItems = new string[] { "PT OMS Gateway has stopped", "W_GBLSCFA_Model Failure", "PorfolioSettingsTool 1.1.49 Deployed to Prod", "AXAIOI<>FYFXIOI Fix Session Down", "GTAAllocator 5.0.10 Deployed to Prod", "Daily_Trade_Report Failure"  };
+		public string[] TableItems = new string[] { "PT OMS Gateway has stopped", "W_GBLSCFA_Model Failure", "PortfolioSettingsTool 1.1.49 Deployed to Prod", "AXAIOI<>NYFXIOI Fix Session Down", "GTAAllocator 5.0.10 Deployed to Prod", "Daily_Trade_Report Failure"  };
 
 		public TableSource source;
 
@@ -70,6 +70,7 @@ namespace _xamarin
 				using (StreamReader reader = new StreamReader(response.GetResponseStream()))
 				{
 					string content = reader.ReadToEnd();
+
 					if (string.IsNullOrWhiteSpace(content))
 					{
 						Console.Out.WriteLine("Response contained empty body...");
