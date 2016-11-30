@@ -11,6 +11,11 @@ namespace _xamarin
 	{
 
 		public string[] TableItems;
+		public string[] Categories = {"IOO", "DAILYCYCLE", "TULIP", "TRADING", "GTA", "TRADING" };
+
+		public string[] Timestamps = {"8:55:14", "8:35:01", "8:34:00", "8:25:44", "8:05:56", "7:55:14"};
+
+
 		NSString cellIdentifier = new NSString ("TableCell");
 
 		public TableSource(string[] items)
@@ -27,12 +32,13 @@ namespace _xamarin
 		{
 			
 			string item = TableItems[indexPath.Row];
+			string category = Categories[indexPath.Row];
+			string timestamp = Timestamps[indexPath.Row];
 
 			var cell = tableView.DequeueReusableCell(cellIdentifier) as CustomCell;
 			if (cell == null)
 				cell = new CustomCell(cellIdentifier);
-			cell.UpdateCell(item
-					, item, item);
+			cell.UpdateCell(category, item, timestamp);
 			return cell;
 
 		}

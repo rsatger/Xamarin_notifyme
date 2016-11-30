@@ -13,7 +13,7 @@ namespace _xamarin
     public partial class ViewController : UIViewController
     {
 
-		public string[] TableItems = new string[] { "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems4" , "InitialTableItems1", "InitialTableItems5" , "InitialTableItems1", "InitialTableItems1" , "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems1", "InitialTableItems4", "InitialTableItems1", "InitialTableItems5", "InitialTableItems1", "InitialTableItems1" };
+		public string[] TableItems = new string[] { "PT OMS Gateway has stopped", "W_GBLSCFA_Model Failure", "PorfolioSettingsTool 1.1.49 Deployed to Prod", "AXAIOI<>FYFXIOI Fix Session Down", "GTAAllocator 5.0.10 Deployed to Prod", "Daily_Trade_Report Failure"  };
 
 		public TableSource source;
 
@@ -43,8 +43,8 @@ namespace _xamarin
 
             table = new UITableView(View.Bounds); // defaults to Plain style
 			table.RowHeight = 70;
-
-			TableItems[0] = "test";
+			table.BackgroundColor = UIColor.FromRGB(107, 107, 107);
+			//TableItems[0] = "test";
 			//= { RandomString(6), RandomString(6), RandomString(6), RandomString(6), RandomString(6), RandomString(6) };
 
             table.Source = new TableSource(TableItems);
