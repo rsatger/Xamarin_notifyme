@@ -18,6 +18,10 @@ namespace _xamarin
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton GenerateButton { get; set; }
 
+        [Action ("GenerateButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void GenerateButton_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (GenerateButton != null) {

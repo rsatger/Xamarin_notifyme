@@ -20,21 +20,28 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="66" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="164" y="574" width="46" height="30"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.20392156862745098" green="0.807843137254902" blue="0.23921568627450981" alpha="1"/>
-                                <state key="normal" title="Refresh notifications">
+                                <state key="normal" title="Refresh Notifications">
                                     <color key="titleColor" colorSpace="calibratedRGB" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="45" y="605" width="285" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="609" width="375" height="58"/>
                                     <mask key="constraints">
-                                        <include reference="91"/>
+                                        <include reference="109"/>
+                                        <include reference="110"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="GenerateButton_TouchUpInside:" destination="BYZ-38-t0r" id="95" eventType="touchUpInside"/>
+                                </connections>
                                 <constraints>
-                                    <constraint id="91" firstAttribute="width" constant="285"/>
+                                    <constraint id="109" firstAttribute="width" constant="375"/>
+                                    <constraint id="110" firstAttribute="height" constant="46"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="91"/>
+                                        <exclude reference="109"/>
+                                        <exclude reference="110"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -44,8 +51,8 @@
                                 <exclude reference="66"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="89"/>
-                                <exclude reference="90"/>
+                                <exclude reference="119"/>
+                                <exclude reference="120"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -53,13 +60,13 @@
                                 <include reference="66"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="89"/>
-                                <include reference="90"/>
+                                <include reference="119"/>
+                                <include reference="120"/>
                             </mask>
                         </variation>
                         <constraints>
-                            <constraint id="89" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="66" secondAttribute="trailing" constant="45"/>
-                            <constraint id="90" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="66" secondAttribute="bottom" constant="32"/>
+                            <constraint id="119" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="66" secondAttribute="trailing"/>
+                            <constraint id="120" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="66" secondAttribute="bottom"/>
                         </constraints>
                     </view>
                     <connections>

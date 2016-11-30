@@ -19,7 +19,7 @@ public class CustomCell : UITableViewCell
 			{
 				TextColor = UIColor.FromRGB(140, 200, 130),
 				BackgroundColor = UIColor.Clear,
-				Font = UIFont.BoldSystemFontOfSize(17)
+				Font = UIFont.BoldSystemFontOfSize(15)
 			};
 			subheadingLabel = new UILabel()
 			{
@@ -47,7 +47,7 @@ public class CustomCell : UITableViewCell
 		public override void LayoutSubviews()
 		{
 			base.LayoutSubviews();
-			headingLabel.Frame = new CGRect(5, 6, ContentView.Bounds.Width - 63, 20);
+			headingLabel.Frame = new CGRect(6, 6, ContentView.Bounds.Width - 63, 20);
 			subheadingLabel.Frame = new CGRect(20, 35, 400, 20);
 			subsubheadingLabel.Frame = new CGRect(305, 05, 100, 20);
 		}

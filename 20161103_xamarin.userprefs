@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{FE0310D2-B1C8-44B5-AF4C-20FA720C23CA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="20161103_xamarin/CustomCell.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="20161103_xamarin/MessageList.cs" Line="25" Column="1" />
-      <File FileName="20161103_xamarin/ViewController.cs" Line="59" Column="4" />
-      <File FileName="20161103_xamarin/TableSource.cs" Line="25" Column="3" />
+      <File FileName="20161103_xamarin/ViewController.cs" Line="46" Column="47" />
+      <File FileName="20161103_xamarin/TableSource.cs" Line="17" Column="3" />
+      <File FileName="20161103_xamarin/CustomCell.cs" Line="18" Column="20" />
       <File FileName="20161103_xamarin/AppDelegate.cs" Line="19" Column="3" />
-      <File FileName="20161103_xamarin/ViewController.designer.cs" Line="14" Column="34" />
+      <File FileName="20161103_xamarin/ViewController.designer.cs" Line="22" Column="10" />
       <File FileName="20161103_xamarin/Main.cs" Line="16" Column="1" />
       <File FileName="20161103_xamarin/Info.plist" />
       <File FileName="20161103_xamarin/Entitlements.plist" />
-      <File FileName="20161103_xamarin/CustomCell.cs" Line="19" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.20161103__xamarin PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.20161103__xamarin PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.199B0365-C0CD-4D6D-8E44-7D07143BBF3D" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/RemySatger/Downloads/ios-xamarin-from-start-to-store/1-exercise-files/RaysHotDogs/RaysHotDogs/ViewController.cs" line="21" column="1" />
