@@ -32,7 +32,7 @@ namespace _xamarin
 			if (cell == null)
 				cell = new CustomCell(cellIdentifier);
 			cell.UpdateCell(item
-					, item);
+					, item, item);
 			return cell;
 
 		}

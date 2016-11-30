@@ -1,0 +1,5 @@
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Debug/build-iphone7.2-10.0.1/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Debug/build-iphone7.2-10.0.1/mtouch-cache/Link/20161103_xamarin.exe
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Debug/build-iphone7.2-10.0.1/mtouch-cache/Link/System.dll
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Debug/build-iphone7.2-10.0.1/mtouch-cache/Link/mscorlib.dll
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Debug/build-iphone7.2-10.0.1/mtouch-cache/Link/System.Core.dll

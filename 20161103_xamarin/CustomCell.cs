@@ -8,13 +8,13 @@ namespace _xamarin
 {
 public class CustomCell : UITableViewCell
 	{
-		UILabel headingLabel, subheadingLabel;
+		UILabel headingLabel, subheadingLabel, subsubheadingLabel;
 		UIImageView imageView;
 		public CustomCell(NSString cellId) : base(UITableViewCellStyle.Default, cellId)
 		{
 			SelectionStyle = UITableViewCellSelectionStyle.Gray;
 			ContentView.BackgroundColor = UIColor.FromRGB(107, 107, 107);
-			imageView = new UIImageView();
+
 			headingLabel = new UILabel()
 			{
 				TextColor = UIColor.FromRGB(140, 200, 130),
@@ -26,19 +26,29 @@ public class CustomCell : UITableViewCell
 				TextAlignment = UITextAlignment.Center,
 				BackgroundColor = UIColor.Clear
 			};
-			ContentView.AddSubviews(new UIView[] { headingLabel, subheadingLabel, imageView });
+			subsubheadingLabel = new UILabel()
+			{
+				TextColor = UIColor.FromRGB(140, 200, 130),
+				BackgroundColor = UIColor.Clear
+			};
+			ContentView.AddSubviews(new UIView[] { headingLabel, subheadingLabel, subsubheadingLabel });
 
 		}
-		public void UpdateCell(string caption, string subtitle)
+		public void UpdateCell(string caption, string subtitle, string subsubtitle)
 		{
 			headingLabel.Text = caption;
 			subheadingLabel.Text = subtitle;
+			subsubheadingLabel.Text = subsubtitle;
+
 		}
 		public override void LayoutSubviews()
 		{
 			base.LayoutSubviews();
-			headingLabel.Frame = new CGRect(5, 4, ContentView.Bounds.Width - 63, 25);
+			headingLabel.Frame = new CGRect(5, 4, ContentView.Bounds.Width - 63, 50);
 			subheadingLabel.Frame = new CGRect(100, 18, 100, 20);
+			subsubheadingLabel.Frame = new CGRect(200, 40, 100, 20);
 		}
+
+
 	}
 }

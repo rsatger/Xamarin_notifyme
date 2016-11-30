@@ -42,6 +42,7 @@ namespace _xamarin
             GenerateButton.TouchUpInside += OnGenerateNotifications;
 
             table = new UITableView(View.Bounds); // defaults to Plain style
+			table.RowHeight = 70;
 
 			TableItems[0] = "test";
 			//= { RandomString(6), RandomString(6), RandomString(6), RandomString(6), RandomString(6), RandomString(6) };

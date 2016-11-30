@@ -1,0 +1,9 @@
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/actool/_PartialAppManifest.items
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/optimized/
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/bin/iPhone/Release/20161103_xamarin.exe.mdb
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/bin/iPhone/Release/20161103_xamarin.exe
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/20161103_xamarin.exe
+/Users/RemySatger/Projects/git_repos/20161103_xamarin/obj/iPhone/Release/20161103_xamarin.exe.mdb
